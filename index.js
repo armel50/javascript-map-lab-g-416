@@ -39,7 +39,7 @@ const sortedRobots = robots.map(e => {
 const coloredZebraStripes = zebraStripes.map( (e, index) => {
   let result = {}
   if(index % 2 ===0 ){
-    
+    result = Object.assign({}, e,{color: "black"})
   }else{
     
   }
