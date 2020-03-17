@@ -35,3 +35,7 @@ const sortedRobots = robots.map(e => {
      }
    return result
 })
+
+const coloredZebraStripes = zebraStripes.map(e => {
+  
+})
