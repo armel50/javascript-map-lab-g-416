@@ -36,6 +36,13 @@ const sortedRobots = robots.map(e => {
    return result
 })
 
-const coloredZebraStripes = zebraStripes.map(e => {
+const coloredZebraStripes = zebraStripes.map( (e, index) => {
+  let result = {}
+  if(index % 2 ===0 ){
+    
+  }else{
+    
+  }
+  }
   
 })
