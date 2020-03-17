@@ -47,4 +47,4 @@ const coloredZebraStripes = zebraStripes.map( (e, index) => {
     return result
   }
   
-})
+)
