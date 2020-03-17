@@ -30,7 +30,7 @@ const sortedRobots = robots.map(e => {
   });
      }else{
           result = Object.assign({}, e, {
-    alliance:"autobots"
+    alliance:"autobot"
   });
      }
    return result
